@@ -6,7 +6,7 @@
  * Usage:
  *
  *    module "stack" {
- *      source      = "github.com/segmentio/stack"
+ *      source      = "github.com/rnrbarbosa/stack"
  *      name        = "mystack"
  *      environment = "prod"
  *    }
@@ -14,7 +14,7 @@
  */
 
 variable "name" {
-  description = "the name of your stack, e.g. \"segment\""
+  description = "the name of your stack, e.g. \"customer1\""
 }
 
 variable "environment" {

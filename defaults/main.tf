@@ -7,8 +7,8 @@
  * Usage:
  *
  *     module "defaults" {
- *       source = "github.com/segmentio/stack/defaults"
- *       region = "us-east-1"
+ *       source = "github.com/rnrbarbosa/stack/defaults"
+ *       region = "eu-central-1"
  *       cidr   = "10.0.0.0/16"
  *     }
  *
